@@ -17,6 +17,7 @@ class Database {
             logger.info("Preloading " + Repository.save(Usuario("Manolo", 123,"123")))
             logger.info("Preloading " + Repository.save(Usuario("Carlos", 456,"456")))
             logger.info("Preloading " + Repository.save(Usuario("Roberto", 789,"789")))
+
         }
 
     }

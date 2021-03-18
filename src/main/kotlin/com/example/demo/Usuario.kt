@@ -13,7 +13,7 @@ class Usuario(
 
     @Id
     @GeneratedValue
-    private val id: Long? = null
+    val id: Long? = null
 
     override fun equals(other: Any?): Boolean {
         if (other is Usuario){
@@ -31,7 +31,5 @@ class Usuario(
 
     override fun toString(): String {
         return "$id es el id de : $nombre "
-
-
     }
 }
